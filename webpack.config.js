@@ -39,7 +39,7 @@ module.exports = {
         }),
     ],
     devServer: {
-        contentBase: path.join(__dirname),
+        contentBase: path.join(__dirname, 'src'),
         publicPath: '/',
         port: 9000
     },
