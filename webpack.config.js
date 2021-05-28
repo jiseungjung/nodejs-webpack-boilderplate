@@ -8,14 +8,14 @@ module.exports = {
         main: './src/js/app.js'
     },
     output: {
-        filename: 'main.[contenthash].js',
+        filename: '[name].[contenthash].js',
         path: path.join(__dirname, 'dist'),
     },
     module: {
         rules: [
             {
                 test: /\.html$/,
-                use: ['html-loader']
+                loader: 'html-loader',
             },
             {
                 test: /\.scss$/,
@@ -24,7 +24,14 @@ module.exports = {
                     'css-loader',
                     'sass-loader',
                 ]
-            }
+            },
+            {
+                test: /\.(png|jpe?g|gif|ico|svg|webmanifest)$/i,
+                type: 'asset/resource',
+                generator: {
+                    filename: '[name][ext]'
+                }
+            },
         ]
     },
     plugins: [
