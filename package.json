@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-webpack-boilderplate",
+  "name": "nodejs-webpack-boilerplate",
   "version": "1.0.0",
   "description": "My custom node.js boilerplate using webpack as a bundler",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jiseungjung/nodejs-webpack-boilderplate.git"
+    "url": "git+https://github.com/jiseungjung/nodejs-webpack-boilerplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jiseungjung/nodejs-webpack-boilderplate/issues"
+    "url": "https://github.com/jiseungjung/nodejs-webpack-boilerplate/issues"
   },
-  "homepage": "https://github.com/jiseungjung/nodejs-webpack-boilderplate#readme",
+  "homepage": "https://github.com/jiseungjung/nodejs-webpack-boilerplate#readme",
   "devDependencies": {
     "clean-webpack-plugin": "*",
     "css-loader": "^5.2.6",
